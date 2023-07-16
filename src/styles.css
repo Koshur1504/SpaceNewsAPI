@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  /* margin: 0px; */
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsContainer {
+  width: 60vw;
+  cursor: pointer;
+}
+img {
+  width: 90%;
+  height: 50%;
+  margin: 0 1rem 0 1rem;
+}
+.newsContainer p,
+h3 {
+  margin: 1rem;
+  padding: 0px;
+}
+h3 {
+  font-size: 1rem;
+}
+.article {
+  margin: 0.5rem 0;
+  background-color: rgb(177, 126, 126);
+  border: 2px solid black;
+}
